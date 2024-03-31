@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {Link, useParams} from "react-router-dom";
 import "./Verify.css";
 import axios from "axios";
@@ -30,27 +30,7 @@ const Verify = () => {
     
 
     console.log(token);
-    // useEffect(() => {
-    //     const fetchData = async () => {
-    //         try {
-    //             const response = await axios.get(
-    //                 `http://localhost:8080/api/v1/auth/verifyRegistration/${token}`,
-    //                 {
-    //                     headers: {
-    //                         "Content-Type": "application/json",
-    //                     },
-    //                     withCredentials: true,
-    //                 }
-    //             );
-    //             console.log(token);
-    //             setInfo(response.data);
-    //         } catch (error) {
-    //             console.error("Error fetching data:", error);
-    //         }
-    //     };
 
-    //     fetchData();
-    // }, [token]); 
 
     return (
         <div className="verify-container">
