@@ -12,12 +12,12 @@ import FlightInformationPageBody from "../FlightInformationPage/FlightInformatio
 import "../FlightInformationPage/FlightInformationPageBody/FlightInformationPageBody.css";
 import {Link} from "react-router-dom";
 import  PlaneImage from "../../assets/planeInMotion.svg";
-import flightimage from "./Flight-Icon.svg";
-import flightimg from "./Flight-Icon.svg";
-import smalldepart from "./smalldep.svg";
-import bigdepart from "./bigdep.svg";
-import smallreturne from "./smallreturnplan.svg";
-import returnplane from "./returningplane.svg";
+import flightimage from "../FlightSelectionOnePage/Flight-Icon.svg";
+import flightimg from "../FlightSelectionOnePage/Flight-Icon.svg";
+import smalldepart from "../FlightSelectionOnePage/smalldep.svg";
+import bigdepart from "../FlightSelectionOnePage/bigdep.svg";
+import smallreturne from "../FlightSelectionOnePage/smallreturnplan.svg";
+import returnplane from "../FlightSelectionOnePage/returningplane.svg";
 
 
 const SliderWrapper = styled.div`
