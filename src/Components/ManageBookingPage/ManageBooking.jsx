@@ -212,7 +212,7 @@ function ManageBooking({isLoggedOut}) {
             item.bookingReferenceCode && item.bookingReferenceCode.toLowerCase().includes(lowerCaseQuery.toLowerCase())||
              item.tripType && item.tripType.toLowerCase().includes(lowerCaseQuery.toLowerCase())||
             item.bookingStatus && item.bookingStatus.toLowerCase().includes(query.trim().toLowerCase())||
-            item.passengerCode && item.passengerCode.toLowerCase().includes(query.trim())||
+            item.passengerCode && item.passengerCode.toLowerCase().includes(query.trim().toLowerCase())||
             modifiedFormattedDate.includes(query.trim())||
              formattedDate.includes(query.trim())||
            (item.bookingFlights && item.bookingFlights.some(flight => {

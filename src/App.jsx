@@ -17,6 +17,9 @@ import DeleteModalPage from "./Pages/DeleteModalPage.jsx";
 import ManageBooking from "./Pages/ManageBooking.jsx";
 import AdminUserManagementPage from "./Pages/AdminUserManagementPage.jsx";
 import EditFlightPage from "./Pages/EditFlightPage.jsx";
+import UserProfilePage from "./Pages/UserProfilePage.jsx";
+import EditUserPage from "./Pages/EditUserPage.jsx";
+import AboutUsPage from "./Pages/AboutUsPage.jsx";
 
 function App() {
   return (
@@ -29,8 +32,8 @@ function App() {
           <Route exact path="/forgot-password" element={<ForgotPasswordPage/>} />
           <Route exact path="/api/v1/auth/reset-password/:token" element={<ResetPasswordPage />} />
           <Route exact path="/api/v1/auth/verifyRegistration" element={<VerifyPage/>}/>
-            <Route exact path="/flight-select" element={<FlightSelectionOnePage/>}/>
-            <Route exact path="/passenger-information" element={<PassengerFormPage/>}/>
+          <Route exact path="/flight-select" element={<FlightSelectionOnePage/>}/>
+          <Route exact path="/passenger-information" element={<PassengerFormPage/>}/>
           <Route exact path="/confirmation-page" element={<ConfirmationPage />} />
           <Route exact path="/ticket-confirmation/:token" element={<TicketConfirmationPage/>}/>
           <Route exact path="/booking-confirmation/:token" element={<BookingConfirmationPage />} />
@@ -40,6 +43,9 @@ function App() {
           <Route exact path="/flight-booking" element={<ManageBooking />} />
           <Route exact path="/passenger" element={<AdminUserManagementPage />} />
           <Route exact path="/edit-flight/:flightId" element={<EditFlightPage/>}/>
+          <Route exact path="/user-profile" element={<UserProfilePage />} />
+          <Route exact path="/edit-profile" element={<EditUserPage />} />
+          <Route exact path="/about" element={<AboutUsPage/>} />
 
         </Routes>
       </Router>
