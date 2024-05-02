@@ -6,7 +6,6 @@ import React from "react";
 function AdminUserManagementPage () {
     return (
         <>
-            {/*<AdminUserNavBar />*/}
             <AdminUserSideBar/>
             <AdminDashboardUser />
         </>
