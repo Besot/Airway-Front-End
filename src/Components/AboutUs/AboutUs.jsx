@@ -21,11 +21,12 @@ import boluImage from '/src/assets/bolu.png';
 import desmondImage from '/src/assets/desmond.png';
 import properImage from '/src/assets/proper.png';
 import bukeyImage from '/src/assets/bukey.png';
-import ofoImage from '/src/assets/ofo.png';
+import ofoImage from '/src/assets/OfofononoPic.jpg';
 import topeoImage from '/src/assets/topeo.png';
 import oscarImage from '/src/assets/oscar.png';
 import tosinImage from '/src/assets/tosin.png';
-import lokaImage from '/src/assets/Chieloka.png';
+import chielokaImage from '/src/assets/Chieloka.png';
+import michealImage from '/src/assets/MichealPic.jpg';
 import mikeImage from '/src/assets/ibyle.png';
 
 const AboutUs = () => {
@@ -99,7 +100,7 @@ const AboutUs = () => {
         },
         {
             name: 'Emmanuel Bobade',
-            stack: 'Java, React, Git',
+            stack: 'Java, React.js, Git',
             imageUrl: emmanuelImage,
         },
         {
@@ -114,7 +115,7 @@ const AboutUs = () => {
         },
         {
             name: 'Ofofonono Okpoho',
-            stack: 'Java, React, Git',
+            stack: 'Java, React.js, Git',
             imageUrl: ofoImage,
         },{
             name: 'Temitope Okuselu',
@@ -133,8 +134,8 @@ const AboutUs = () => {
         },
         {
             name: 'Chieloka Madubugwu',
-            stack: 'Java, React, Git',
-            imageUrl: lokaImage,
+            stack: 'Java, React.js, Git',
+            imageUrl: chielokaImage,
         },
         {
             name: 'Ikenna Amadi',
@@ -174,6 +175,11 @@ const AboutUs = () => {
             name: 'Bassey Bassey',
             stack: 'Java, React.js',
             imageUrl: basseyImage,
+        },
+        {
+            name: 'Micheal Sotunde',
+            stack: 'Java, React.js',
+            imageUrl: michealImage,
         },
     ];
 
